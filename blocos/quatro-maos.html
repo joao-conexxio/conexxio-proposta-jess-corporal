@@ -1,0 +1,48 @@
+<section class="blk-maos" id="quatro-maos">
+  <div class="wrap blk-maos__grid">
+    <div class="blk-maos__cab" data-reveal>
+      <p class="blk-maos__eyebrow">Método Jess</p>
+      <h2 class="blk-maos__titulo">Duas profissionais no mesmo ritmo, quatro mãos na mesma sessão.</h2>
+      <p class="blk-maos__lead" data-acende>A Lipo Shape Massage é a técnica própria da casa, com manobras que estimulam a drenagem. Na versão Four Hands, dois profissionais atendem ao mesmo tempo, com deslizamentos sincronizados, para intensificar o trabalho de redução de medidas.</p>
+    </div>
+    <div class="blk-maos__painel" data-reveal>
+      <span class="blk-maos__num" aria-hidden="true">4</span>
+      <span class="blk-maos__num-rot">mãos por sessão<br>na versão Four Hands</span>
+    </div>
+    <ol class="blk-maos__lista">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-maos__ico"><!--icone:mao--></span>
+        <div><h3>Lipo Shape Massage</h3><p>A técnica exclusiva da clínica: manobras que estimulam os gânglios linfáticos e ajudam o corpo a eliminar o líquido acumulado.</p></div>
+      </li>
+      <li data-reveal style="--d:100ms">
+        <span class="blk-maos__ico"><!--icone:spa--></span>
+        <div><h3>Four Hands (FHL)</h3><p>A mesma base, executada por dois profissionais ao mesmo tempo. A sessão pede sincronia, e é isso que a torna diferente.</p></div>
+      </li>
+      <li data-reveal style="--d:200ms">
+        <span class="blk-maos__ico"><!--icone:conversa--></span>
+        <div><h3>Resultado conversado antes</h3><p>Duração, número de sessões e valores são combinados com a equipe na avaliação. Resultados variam de pessoa para pessoa.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-maos{padding-block:var(--sp-section)}
+.blk-maos__grid{display:grid;gap:var(--sp-5)}
+.blk-maos__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-maos__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-maos__lead{margin:var(--sp-3) 0 0;font-size:1.1rem;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-maos__painel{display:flex;flex-direction:column;justify-content:center;gap:var(--sp-2);padding:var(--sp-5);border-radius:var(--r-lg);background:var(--brand);color:var(--on-dark,#fff);min-height:14rem}
+.blk-maos__num{font-family:var(--f-display);font-weight:300;font-size:clamp(7rem,22vw,12rem);line-height:.85;color:var(--pulse)}
+.blk-maos__num-rot{font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;line-height:1.6;opacity:.85}
+.blk-maos__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-maos__lista li{display:flex;gap:var(--sp-3);align-items:flex-start;padding:var(--sp-4);border:1px solid color-mix(in srgb,var(--pulse) 55%,transparent);border-radius:var(--r)}
+.blk-maos__ico{flex:none;display:inline-flex;align-items:center;justify-content:center;width:3rem;height:3rem;border-radius:50%;color:var(--brand);border:1px solid color-mix(in srgb,var(--pulse) 70%,transparent)}
+.blk-maos__ico svg{width:1.5rem;height:1.5rem}
+.blk-maos__lista h3{margin:0;font-family:var(--f-display);font-weight:500;font-size:clamp(1.3rem,3vw,1.6rem);line-height:1.1;color:var(--ink)}
+.blk-maos__lista p{margin:.4rem 0 0;line-height:1.55;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:56rem){
+  .blk-maos__grid{grid-template-columns:1.15fr 1fr;gap:3rem 4rem;align-items:stretch}
+  .blk-maos__lista{grid-column:1 / -1;grid-template-columns:repeat(3,1fr)}
+}
+</style>

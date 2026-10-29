@@ -1,0 +1,137 @@
+{
+  "slug": "jess-corporal",
+  "negocio": {
+    "nome": "Jess Corporal · Clínica de Biomedicina Estética",
+    "logo": "brand/logo-orig.png",
+    "whatsapp": "5551985876345",
+    "unidades": [
+      {
+        "bairro": "São Sebastião · Porto Alegre",
+        "endereco": "Av. Assis Brasil, 4550, Torre B, sala 1402 – Centro Comercial Icon, São Sebastião, Porto Alegre – RS, 91110-000",
+        "telefone": "(51) 3407-8991",
+        "horario": "Seg a sex, 10h às 21h · Sáb, 8h às 17h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#014558",
+    "brand2": "#00232C",
+    "ink": "#12242A",
+    "bg": "#FFFBF3",
+    "pulse": "#B8915F",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "Jost",
+    "fontBody": "Inter",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    { "id": "header", "variant": "sticky-cta", "data": { "links": [
+      { "texto": "Procedimentos", "href": "#tratamentos" },
+      { "texto": "Quatro mãos", "href": "#quatro-maos" },
+      { "texto": "Aparelhos", "href": "#tecnologias" },
+      { "texto": "Onde fica", "href": "#unidades" }
+    ] } },
+    { "id": "hero", "variant": "split-motivo", "data": {
+      "eyebrow": "Biomedicina estética",
+      "h1": "Rosto e corpo, com aparelho certo e mão treinada.",
+      "lead": "Procedimentos faciais, corporais e massagens modeladoras numa clínica na Assis Brasil, com responsável técnico registrado e onze aparelhos de estética.",
+      "cta": "Agendar avaliação",
+      "ctaSecundario": "Ver procedimentos",
+      "ctaSecundarioHref": "#tratamentos",
+      "selo": "5,0 no Google · 219 avaliações · ",
+      "cardTitulo": "Agende pelo WhatsApp",
+      "arte": "grao"
+    } },
+    { "id": "fita", "data": { "itens": [
+      "Harmonização facial", "LaVieen", "Ultraformer III", "Criolipólise de contraste", "Scizer",
+      "Criofrequência com tecarterapia", "Lipocavitação", "Carboxiterapia", "Drenagem linfática", "Massagem Four Hands"
+    ] } },
+    { "id": "numeros", "variant": "faixa", "data": {
+      "titulo": "A clínica em números",
+      "itens": [
+        { "valor": "5,0", "rotulo": "de nota no Google, em 219 avaliações" },
+        { "valor": "11", "rotulo": "aparelhos de estética para rosto e corpo", "contar": 11 },
+        { "valor": "3", "rotulo": "frentes de atendimento: facial, corporal e massagens", "contar": 3 },
+        { "valor": "2018", "rotulo": "ano a partir do qual a clínica diz manter 5 estrelas no Google" }
+      ]
+    } },
+    { "id": "manifesto", "variant": "pagina", "data": {
+      "eyebrow": "A casa",
+      "citacao": "Resultado de verdade para gente de verdade.",
+      "autor": "Como a Jess Corporal se apresenta",
+      "texto": [
+        "A clínica fica no Centro Comercial Icon, ao lado do Boulevard Shopping, com estacionamento. Reúne num só lugar o que costuma exigir três: harmonização e laser para o rosto, tecnologias para gordura localizada, flacidez e celulite, e uma linha de massagens com técnica própria.",
+        "A responsabilidade técnica é da biomédica Andryelle Jardim Machado, CRBM 4973. Os aparelhos têm nome e função descritos de forma aberta, para você saber o que vai ser usado antes de marcar."
+      ]
+    } },
+    { "id": "tratamentos", "variant": "pilha", "data": {
+      "titulo": "O que se faz na Jess Corporal",
+      "lead": "Seis frentes de trabalho. A combinação certa para o seu caso sai da avaliação.",
+      "itens": [
+        { "nome": "Harmonização facial", "descricao": "Toxina botulínica, preenchimento labial, bioestimuladores e skinbooster, indicados caso a caso.", "icone": "rosto" },
+        { "nome": "Laser LaVieen", "descricao": "Laser thulium para melasma, poros abertos, linhas finas e cicatrizes de acne, sem tempo de recuperação, segundo a clínica.", "icone": "laser" },
+        { "nome": "Ultraformer III", "descricao": "Ultrassom micro e macrofocado para lifting facial e flacidez, com transdutores próprios para rosto e corpo.", "icone": "ultrassom" },
+        { "nome": "Gordura localizada", "descricao": "Criolipólise de contraste, Scizer, lipocavitação e radiofrequência, combinados conforme a região.", "icone": "gota" },
+        { "nome": "Celulite e flacidez", "descricao": "Criofrequência com tecarterapia, carboxiterapia e radiofrequência para o corpo e o rosto.", "icone": "mulher" },
+        { "nome": "Massagens", "descricao": "Modeladora, drenagem linfática, pós-cirúrgica, liberação miofascial, relaxante e a Four Hands.", "icone": "spa" }
+      ]
+    } },
+    { "custom": "blocos/quatro-maos.html" },
+    { "id": "tecnologias", "variant": "grade", "data": {
+      "titulo": "Aparelhos que a clínica usa",
+      "itens": [
+        { "nome": "Ethernia Cold", "detalhe": "Criofrequência associada à tecarterapia, para gordura, celulite e flacidez", "icone": "molecula" },
+        { "nome": "Beauty Shape Duo", "detalhe": "Criolipólise de contraste, com duas saídas independentes", "icone": "gota" },
+        { "nome": "Scizer", "detalhe": "Ultrassom focalizado para contorno corporal", "icone": "ultrassom" },
+        { "nome": "Ultraformer III", "detalhe": "Ultrassom micro e macrofocado para lifting", "icone": "estrela" },
+        { "nome": "LaVieen", "detalhe": "Laser thulium para a qualidade da pele do rosto", "icone": "laser" },
+        { "nome": "Pluria", "detalhe": "Carboxiterapia percutânea e transcutânea", "icone": "seringa" }
+      ]
+    } },
+    { "id": "passos", "variant": "numerados", "data": {
+      "titulo": "Como marcar",
+      "lead": "Do primeiro WhatsApp à sessão.",
+      "itens": [
+        { "titulo": "Chame no WhatsApp", "texto": "Conte o que você quer tratar, no rosto ou no corpo. A equipe responde com os horários.", "icone": "conversa" },
+        { "titulo": "Avaliação", "texto": "Consulta estética para entender a região, o histórico e o objetivo.", "icone": "estetoscopio" },
+        { "titulo": "Plano combinado", "texto": "Aparelhos, número de sessões e valores explicados antes de começar.", "icone": "check" },
+        { "titulo": "Sessões e retorno", "texto": "O acompanhamento segue o ritmo do procedimento escolhido.", "icone": "agenda" }
+      ]
+    } },
+    { "id": "corpo-clinico", "variant": "lista", "data": {
+      "titulo": "Responsabilidade técnica",
+      "itens": [
+        { "nome": "Andryelle Jardim Machado", "registro": "CRBM 4973", "especialidade": "Responsável técnica da clínica" }
+      ]
+    } },
+    { "id": "faq", "variant": "acordeao", "data": {
+      "titulo": "Perguntas antes de agendar",
+      "itens": [
+        { "p": "Preciso de avaliação antes do procedimento?", "r": "Sim. A avaliação define o que faz sentido para o seu caso e evita combinar aparelhos que não se complementam." },
+        { "p": "Quantas sessões cada tratamento pede?", "r": "Varia com o procedimento e com a pessoa. A equipe informa o número estimado e os valores na avaliação." },
+        { "p": "Há garantia de resultado?", "r": "Não. O resultado depende de cada organismo, e a clínica explica o que é razoável esperar antes de começar." },
+        { "p": "Onde fica e tem estacionamento?", "r": "Na Av. Assis Brasil, 4550, Torre B, sala 1402, ao lado do Boulevard Shopping, com estacionamento." }
+      ]
+    } },
+    { "id": "unidades", "variant": "unica", "data": {
+      "titulo": "Onde fica",
+      "imagem": "midia/fachada.jpg"
+    } },
+    { "id": "cta-final", "variant": "bloco-cheio", "data": {
+      "h2": "Conte o que você quer tratar",
+      "lead": "Chame pelo WhatsApp e agende a sua avaliação na Assis Brasil.",
+      "cta": "Quero agendar"
+    } },
+    { "id": "footer", "variant": "completo", "data": {
+      "links": [
+        { "texto": "Procedimentos", "href": "#tratamentos" },
+        { "texto": "Quatro mãos", "href": "#quatro-maos" },
+        { "texto": "Onde fica", "href": "#unidades" }
+      ],
+      "aviso": "Jess Corporal · Clínica de Biomedicina Estética · Porto Alegre, RS. Os resultados variam de pessoa para pessoa."
+    } }
+  ]
+}
